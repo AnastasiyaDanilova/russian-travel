@@ -1,0 +1,9 @@
+.places {
+    max-width: 984px;
+    margin: 0 auto;
+    color: white;
+    padding: 92px 0;
+    /* display: grid; */
+    row-gap: 80px;
+    list-style: none;
+}

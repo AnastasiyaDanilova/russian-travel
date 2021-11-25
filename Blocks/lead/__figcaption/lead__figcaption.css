@@ -1,0 +1,11 @@
+.lead__figcaption {
+    text-align: start;
+    min-width: 158px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
