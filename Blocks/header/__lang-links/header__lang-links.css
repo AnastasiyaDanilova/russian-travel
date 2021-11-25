@@ -4,6 +4,25 @@
     padding: 0;
     display: flex;
     position: absolute;
-    right: 48px;
     top: 46px;
+    right: 48px;
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .header__lang-links {
+        right: 24px;
+    }
+ 
+}
+
+
+@media screen and (max-width: 320px) {
+
+    .header__lang-links {
+        top: 30px;
+        right: 16px;
+    }
+
 }

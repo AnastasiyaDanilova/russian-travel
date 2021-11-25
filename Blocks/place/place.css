@@ -11,3 +11,20 @@
 .place:last-child {
     margin-bottom: 0;
 }
+
+
+@media screen and (max-width: 768px) {
+    .place {
+        margin-bottom: 73px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, auto);
+        row-gap: 32px;
+        margin-bottom: 50px;
+    }
+}
