@@ -5,7 +5,18 @@
     font-weight: normal;
     font-size: 16px;
     line-height: 18px;
-    margin: 0;
     text-decoration: none;
-    padding-right: 18px;
+    margin-right: 18px;
+    display: inline-block;
+}
+
+
+
+@media screen and (max-width: 320px) {
+    .footer__link {
+        font-size: 24px;
+        line-height: 24px;
+        margin-right: 0;
+        margin-bottom: 32px;
+    }
 }

@@ -8,3 +8,13 @@
     margin: 0;
     color: white;
 }
+
+@media screen and (max-width: 320px) {
+    .footer__copyright {
+        flex-direction: column;
+        max-width: 186px;
+        text-align: left;
+        margin-top: 16px;
+        max-width: 320px;
+    }
+}
