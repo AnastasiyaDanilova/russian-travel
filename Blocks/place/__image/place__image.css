@@ -4,9 +4,11 @@
     width: 100%;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width:610px) {
+
     .place__image {
         grid-column:1;
         grid-row: 3;
     }
+    
 }

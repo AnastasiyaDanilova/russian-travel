@@ -3,14 +3,13 @@
     grid-template-columns: 47% 49%;
     grid-template-rows: repeat(2, auto);
     gap: 48px 4%;
-    width: 100%;
     margin-bottom: 80px;
-    height: 100%;
 }
 
 .place:last-child {
     margin-bottom: 0;
 }
+
 
 
 @media screen and (max-width: 768px) {
@@ -19,7 +18,7 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 610px) {
     .place {
         display: grid;
         grid-template-columns: 1fr;
@@ -28,3 +27,4 @@
         margin-bottom: 50px;
     }
 }
+
