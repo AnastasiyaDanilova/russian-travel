@@ -1,4 +1,5 @@
-.galery__item {
+.galery__grid-item {
     width: 100%;
     object-fit: cover;
 }
+

@@ -1,0 +1,31 @@
+.galery__grid {
+    display: grid;
+    list-style: none;
+    padding: 0;
+    margin: auto;
+    grid-template-columns: repeat(auto-fill, minmax(284px, 2fr));
+    max-width: 1184px;
+    gap: 16px;
+
+}
+
+@media screen and (max-width: 1024px) {
+    .galery {
+        max-width: 928px;
+        margin: 0 48px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .galery {
+        max-width: 720px;
+        margin: 0 24px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .galery {
+        max-width: 288px;
+        margin: 0 16px;
+    }
+}

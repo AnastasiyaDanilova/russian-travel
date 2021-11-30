@@ -2,27 +2,16 @@
     list-style: none;
     margin: 0;
     padding: 0;
-    display: flex;
+    display: grid;
+    grid-auto-columns: min-content;
+    grid-auto-flow: column;
+    column-gap: 18px;
 }
 
 
 @media screen and (max-width: 610px) {
     .footer__links {
-        flex-direction: column;
-        min-height: 300px;
-        justify-content: space-between;
-    }
-}
-
-
-@media screen and (max-width: 500px) {
-    .footer__links {
-        min-height: 250px;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .footer__links {
-        min-height: 186px;
+        grid-auto-flow: row;
+        row-gap: 32px;
     }
 }

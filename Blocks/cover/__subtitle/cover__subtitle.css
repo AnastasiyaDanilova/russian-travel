@@ -16,17 +16,17 @@
         font-size: 16px;
         line-height: 21px;
         max-width: 320px;
-        margin: 0 0 16px;
+        margin:0;
     }
 
 }
 
 @media screen and (max-width: 380px) {
 
-    .lead__subtitle {
-        line-height: 20px;
+    .cover__subtitle {
         max-width: 288px;
-        min-height: 48px;
+        font-size: 14px;
+        line-height: 16px;
     }
 
 }
