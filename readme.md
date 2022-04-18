@@ -6,4 +6,4 @@
 
 *Ссылка на проект на GitHub-pages:*
 
-https://anastasiyadanilova.github.io/russian-travel/
+https://anastasiyadanilova.github.io/russian-travel/  
