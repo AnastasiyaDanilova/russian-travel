@@ -32,14 +32,14 @@
 
 /*galery*/
 
-@import url(../blocks/galery/galery.css);
+@import url(../Blocks/galery/galery.css);
 @import url(../Blocks/galery/__grid/galery__grid.css);
 @import url(../Blocks/galery/__grid-item/galery__grid-item.css);
 
 /*Places and place*/
 
 @import url(../Blocks/places/places.css);
-@import url(../blocks/places/__list/places__list.css);
+@import url(../Blocks/places/__list/places__list.css);
 @import url(../Blocks/place/place.css);
 @import url(../Blocks/place/__title/place__title.css);
 @import url(../Blocks/place/__website/place__website.css);
